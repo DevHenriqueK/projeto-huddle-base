@@ -1,0 +1,80 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') center top no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding-left: 50px;
+    padding: 50px;
+}
+
+.cabecalho {
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+main .container {
+    display: flex;
+    gap: 70px;
+}
+
+main .container .textos h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3.5rem;
+    width: 100%;
+    margin-top: 30px;
+}
+
+main .container .textos p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8rem;
+    margin: 15px 0 30px 0;
+}
+
+main .container .textos a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    padding: 10px 60px;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+main .container .textos a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.rodape {
+    margin-top: 50px;
+}
+
+.rodape .social {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    font-size: 2rem;
+}
+
+.rodape .social a .fab {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.rodape .social a .fab:hover {
+    color: hsl(300, 69%, 71%);
+    border: 1px solid hsl(300, 69%, 71%);
+}
+
+.rodape .social a .fa-facebook-f {
+    padding: 10px 13px;
+}
